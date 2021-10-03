@@ -38,5 +38,10 @@ if number>2:
 if flag:
     print("not a prime")
 else:
-    print("prime")'''
+    print("prime")
+number=int(input("enter the number:"))
+if number%2==0:
+    print("even number")
+else:
+    print("odd number")'''
 
