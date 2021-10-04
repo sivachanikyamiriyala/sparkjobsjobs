@@ -10,6 +10,10 @@ print(ss.a)
 extraction=ss.Prism.extract(self)
 
 print(extraction)
-'''
+
 def hello():
     print("file1")
+
+import Scripts.allprogrammes as ss
+help(ss)
+'''
