@@ -45,3 +45,15 @@ if number%2==0:
 else:
     print("odd number")'''
 
+
+class Prism():
+    def extract(scpu,ram):
+        print("extraction")
+    def __init__(self,cpu,ram):
+        self.cpu=cpu
+        self.ram=ram
+        print("initialing")
+
+obj=Prism("i5",4)
+Prism.extract("i5",4)
+
