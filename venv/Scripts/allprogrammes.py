@@ -43,7 +43,7 @@ number=int(input("enter the number:"))
 if number%2==0:
     print("even number")
 else:
-    print("odd number")'''
+    print("odd number")
 
 
 class Prism():
@@ -57,3 +57,12 @@ class Prism():
 obj=Prism("i5",4)
 Prism.extract("i5",4)
 
+def hello():
+    print("allprogg")
+def hello1():
+    print("hello1")
+import logging
+logging.basicConfig(filename='c:\\Users\DELL\PycharmProjects\sivaProject\main.py',level=logging.INFO)
+logging.info("initialing")
+'''
+print(__name__)
