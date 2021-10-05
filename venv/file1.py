@@ -17,3 +17,5 @@ def hello():
 import Scripts.allprogrammes as ss
 help(ss)
 '''
+def hello():
+    print("file1")

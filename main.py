@@ -9,10 +9,17 @@ import file1
 import Scripts.allprogrammes as ss
 file1.hello()
 ss.hello1()
+<<<<<<< HEAD
 
+=======
+'''
+>>>>>>> ba3091a (4th commit)
 from Scripts.allprogrammes import hello
 
 print(hello())
 
 INFO:root:initialing
+<<<<<<< HEAD
 '''
+=======
+>>>>>>> ba3091a (4th commit)
