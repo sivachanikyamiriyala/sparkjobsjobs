@@ -57,3 +57,28 @@ class Prism():
 obj=Prism("i5",4)
 Prism.extract("i5",4)
 
+<<<<<<< HEAD
+=======
+def hello():
+    print("allprogg")
+def hello1():
+    print("hello1")
+import logging
+logging.basicConfig(filename='c:\\Users\DELL\PycharmProjects\sivaProject\main.py',level=logging.INFO)
+logging.info("initialing")
+
+print(__name__)
+'''
+def extraction(x):
+    '''
+    :param x:string
+
+    :param x:
+    :return: maskedmail in string format
+    '''
+    l1=len(x)
+    mail=x.split("@")[0]
+    list_mail=list(mail)
+    list_mail[1:int(l1)-1]="x"*(int)(l1-2)
+    return "".join(list_mail)+"@"+x.split("@")[1]
+>>>>>>> 4488695 (5th commit)
