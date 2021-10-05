@@ -16,4 +16,20 @@ def hello():
 
 import Scripts.allprogrammes as ss
 help(ss)
+
+import sys
+data=['0']
+number=8
+try:
+    print(number/data[0],sys.exc_info())
+except ZeroDivisionError as ee:
+    print("error")
+except TypeError as rr:
+    print("error11")
+finally:
+    try:
+        print(1/0)
+    except ZeroDivisionError as ww:
+        print("zerodivison error")
+    print("cloe the dbconnection")
 '''
