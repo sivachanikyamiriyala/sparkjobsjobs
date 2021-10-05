@@ -59,9 +59,12 @@ Prism.extract("i5",4)
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> ba3091a (4th commit)
+=======
+>>>>>>> remotes/origin/master
 def hello():
     print("allprogg")
 def hello1():
@@ -85,7 +88,10 @@ def extraction(x):
     list_mail=list(mail)
     list_mail[1:int(l1)-1]="x"*(int)(l1-2)
     return "".join(list_mail)+"@"+x.split("@")[1]
+<<<<<<< HEAD
 >>>>>>> 4488695 (5th commit)
+=======
+>>>>>>> remotes/origin/master
 =======
 '''
 print(__name__)
