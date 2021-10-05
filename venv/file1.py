@@ -32,4 +32,21 @@ finally:
     except ZeroDivisionError as ww:
         print("zerodivison error")
     print("cloe the dbconnection")
-'''
+
+import logging
+logging.basicConfig(filename="C:\\Users\DELL\Desktop\ilelogger",level=logging.INFO,format='%(asctime)s:%(levelname)s:%(message)s')
+logging.basicConfig(filename='/home/sivachanikyamiriyala3826/tlooging.txt',level='logging.INFO',format='%(asctime)s:%(levelname)s:%(message)s')
+
+logging.info("doingwork")'''
+
+import os
+print(os.getlogin())
+import pytz
+#print(dir(pytz))
+from pytz import timezone
+timeZ_Ce=timezone('US/Central')
+from datetime import datetime
+runtime= datetime.now(timeZ_Ce).strftime('%m%d%Y%H%M')
+print(runtime)
+import sys
+sys.setrecursionlimit(1000000)
