@@ -43,7 +43,7 @@ number=int(input("enter the number:"))
 if number%2==0:
     print("even number")
 else:
-    print("odd number")'''
+    print("odd number")
 
 
 class Prism():
@@ -58,7 +58,10 @@ obj=Prism("i5",4)
 Prism.extract("i5",4)
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> ba3091a (4th commit)
 def hello():
     print("allprogg")
 def hello1():
@@ -66,6 +69,7 @@ def hello1():
 import logging
 logging.basicConfig(filename='c:\\Users\DELL\PycharmProjects\sivaProject\main.py',level=logging.INFO)
 logging.info("initialing")
+<<<<<<< HEAD
 
 print(__name__)
 '''
@@ -82,3 +86,7 @@ def extraction(x):
     list_mail[1:int(l1)-1]="x"*(int)(l1-2)
     return "".join(list_mail)+"@"+x.split("@")[1]
 >>>>>>> 4488695 (5th commit)
+=======
+'''
+print(__name__)
+>>>>>>> ba3091a (4th commit)

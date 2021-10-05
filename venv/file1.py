@@ -20,3 +20,5 @@ import Scripts.allprogrammes as ss
 help(ss)
 >>>>>>> 4488695 (5th commit)
 '''
+def hello():
+    print("file1")
