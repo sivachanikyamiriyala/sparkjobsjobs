@@ -83,7 +83,7 @@ def extraction(x):
     :param x:
     :return: maskedmail in string format
     '''
-    l1=len(x)
+  '''  l1=len(x)
     mail=x.split("@")[0]
     list_mail=list(mail)
     list_mail[1:int(l1)-1]="x"*(int)(l1-2)
@@ -96,3 +96,4 @@ def extraction(x):
 '''
 print(__name__)
 >>>>>>> ba3091a (4th commit)
+'''

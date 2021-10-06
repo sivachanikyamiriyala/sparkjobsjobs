@@ -55,7 +55,7 @@ import logging
 logging.basicConfig(filename="C:\\Users\DELL\Desktop\ilelogger",level=logging.INFO,format='%(asctime)s:%(levelname)s:%(message)s')
 logging.basicConfig(filename='/home/sivachanikyamiriyala3826/tlooging.txt',level='logging.INFO',format='%(asctime)s:%(levelname)s:%(message)s')
 
-logging.info("doingwork")'''
+logging.info("doingwork")
 
 import os
 print(os.getlogin())
@@ -67,6 +67,25 @@ from datetime import datetime
 runtime= datetime.now(timeZ_Ce).strftime('%m%d%Y%H%M')
 print(runtime)
 import sys
-sys.setrecursionlimit(1000000)
->>>>>>> ae6caf18f181311dc5366a0be0ab5d4c97545363
->>>>>>> remotes/origin/master
+sys.setrecursionlimit(1000000)'''
+
+
+
+
+import os
+#os.getlogin()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
